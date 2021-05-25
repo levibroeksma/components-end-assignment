@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .App {
   width: 100%;
@@ -16,7 +18,58 @@ body {
   position: relative;
 }
 
-/*Temp*/
+main {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.main-content-holder {
+  max-width: 1300px;
+  padding: 50px 30px;
+  box-sizing: border-box;
+}
+
+/*General text styling*/
+
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #1C1DB1;
+  margin: 0;
+  margin: 0 0 80px 0;
+}
+
+h1.center {
+  position: relative;
+  text-align: center;
+}
+
+h1.center::after {
+  content: " ";
+  height: 1px;
+  width: 150px;
+  background: #1C1DB1;
+  position: absolute;
+  left: calc(50% - 75px);
+  right: calc(50% - 75px);
+  top: 60px;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #1C1DB1;
+  margin: 0;
+}
+
+p {
+  font-family: 'Open sans', sans-serif;
+  line-height: 1.65em;
+  color: #565656;
+}
+
+
+
+  /*Temporary*/
 
 .recipe-holder-home {
   display: flex;
@@ -26,4 +79,11 @@ body {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 10px;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }

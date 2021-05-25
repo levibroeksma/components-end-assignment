@@ -1,4 +1,6 @@
 import './Footer.css';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer({}) {
     return (
@@ -16,7 +18,7 @@ function Footer({}) {
                         </ul>
                     </section>
                     <section className="footer-section">
-                        <div className="h2">Recepten</div>
+                        <div className="h2">Other</div>
                         <ul className="link-holder">
                             <li><a href="#">Dit is een suggestie</a></li>
                             <li><a href="#">Dit is een suggestie</a></li>
@@ -28,8 +30,8 @@ function Footer({}) {
                     <section className="footer-section">
                         <div className="h2">Contact</div>
                         <span>RecipeTracker</span>
-                        <a href="#" className="mail">info@recipetracker.com</a>
-                        <a href="#" className="phone-number">+ 31 (0) 123 45 67 8</a>
+                        <a href="#" className="mail"><strong>M</strong> info@recipetracker.com</a>
+                        <a href="#" className="phone-number"><strong>P</strong> + 31 (0) 123 45 67 8</a>
                     </section>
                 </div>
             </div>

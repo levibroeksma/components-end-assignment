@@ -6,6 +6,9 @@ import clock from './assets/clock.png';
 import Recipe from "./components/Recipe/Recipe";
 import logo from './logo.svg';
 import Header from './components/Header/Header';
+import Button from './components/Button/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import RecipeDetail from "./components/Recipe-detail/Recipe-detail";
 
 function App() {
   return (
@@ -13,83 +16,21 @@ function App() {
        <Header
         logo={logo}
        />
-        <div className="recipe-holder-home">
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-            <Recipe
-                title="Chipotle Chicken Taco's with blue corn tortilla's"
-                description="These delicious mildly spicy, smokey chicken taco's are guaranteed to leave no leftovers!"
-                imagecountry={mexico}
-                preptimeimage={clock}
-                kcalimage={kcal}
-                preptime="45 min"
-                kcal="475 kcal"
-            />
-        </div>
 
+        {/*<Recipe*/}
+        {/*    imagecountry={mexico}*/}
+        {/*    title="Chipotle Chicken Taco’s with blue corn tortilla’s"*/}
+        {/*    preptime="45 min"*/}
+        {/*    preptimeimage={clock}*/}
+        {/*    kcalimage={kcal}*/}
+        {/*    kcal="475 kcal"*/}
+        {/*    description="These delicious mildly spicy, smokey chicken taco’s are guaranteed to leave no leftovers!"*/}
+        {/*/>*/}
+        <main>
+            <RecipeDetail/>
+
+        </main>
         <Footer/>
-
     </div>
   )
 }
